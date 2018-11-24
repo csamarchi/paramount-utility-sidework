@@ -30,3 +30,36 @@
     transform: rotate(360deg);
   }
 }
+
+/* NAV BAR */
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  background-color: #d12529;
+}
+
+.navBar ul {
+  list-style-type: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  transition: 0.2s ease-out;
+  transition: .3s ease-in;
+}
+
+.navBar ul a {
+  color: white;
+  font-size: 14px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-right: 65px;
+  line-height: 10px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.navBar:hover ul {
+    color: #fff;
+    text-decoration: none;
+  }
