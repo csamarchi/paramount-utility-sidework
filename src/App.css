@@ -69,3 +69,26 @@
   font-weight: 700;
   font-size: 45px;
 }
+
+.footer {
+  background-color: #d12529;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.contactBox {
+  display: flex;
+  justify-content: space-between;
+}
+.contactEmailDiv {
+  float: right;
+}
+
+.contact-form-container {
+  float: left;
+}

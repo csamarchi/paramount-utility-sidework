@@ -12,7 +12,7 @@ class HomePage extends Component {
       <div>
         <Nav />
         <h1 className="homeText"> Paramount Utilies </h1>
-        <img src="images/paramount_large.svg" />
+        <div className="logo" />
           <div>
             <h2>ON-TIME, ON-BUDGET, SAFETY-FOCUSED</h2>
             <p>Paramount Utility Corporation is a full service turnkey contractor dedicated to serving the wireless and wireline telecommunications industries in the western-US. We specialize in building your facilities; on-time and on-budget. Our experienced leadership team and crews are fully trained and acutely aware of the importance of safety – at all times. </p>
