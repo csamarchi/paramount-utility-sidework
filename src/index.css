@@ -16,3 +16,10 @@ code {
 .logo {
   background-image: url("");
 }
+
+/* PICTURES */
+img {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
