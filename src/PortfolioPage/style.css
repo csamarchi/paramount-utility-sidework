@@ -18,6 +18,7 @@ img {
 
 .portfolioBackground {
   background-image: url('/portfolio_bg.jpg');
+  height: 720px;
 }
 
 h1 {

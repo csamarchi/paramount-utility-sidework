@@ -1,0 +1,19 @@
+.safetyBackground {
+  background-image: url('/hard_hat02.jpg');
+  height: 720px;
+}
+
+.safetyContainer {
+  display: block;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+p {
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 14px;
+  color: #000;
+}

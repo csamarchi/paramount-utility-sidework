@@ -31,39 +31,6 @@
   }
 }
 
-/* NAV BAR */
-
-.navBar {
-  display: flex;
-  justify-content: center;
-  background-color: #d12529;
-}
-
-.navBar ul {
-  list-style-type: none;
-  color: white;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  transition: 0.2s ease-out;
-  transition: .3s ease-in;
-}
-
-.navBar ul a {
-  color: white;
-  font-size: 14px;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  margin-right: 65px;
-  line-height: 10px;
-  text-decoration: none;
-  vertical-align: middle;
-}
-
-.navBar:hover ul {
-    color: #fff;
-    text-decoration: none;
-  }
-
 .homeText {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -79,16 +46,4 @@
   position: absolute;
   bottom: 0px;
   width: 100%;
-}
-
-.contactBox {
-  display: flex;
-  justify-content: space-between;
-}
-.contactEmailDiv {
-  float: right;
-}
-
-.contact-form-container {
-  float: left;
 }

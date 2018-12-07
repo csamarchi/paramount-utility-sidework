@@ -9,6 +9,7 @@ import SafetyPage from '../SafetyPage';
 import PortfolioPage from '../PortfolioPage';
 import About from '../About';
 import Contact from '../Contact';
+import './style.css';
 
 class Nav extends Component {
   constructor() {
@@ -18,6 +19,7 @@ class Nav extends Component {
     return(
       <nav className = "navBar">
         <ul>
+          <li><Link to='/'> <img className='paramountSmall' src='paramountsmall.svg' /> </Link></li>
           <li><Link to='/'>Home</Link></li>
           <li><Link to ='/services'>Services</Link></li>
           <li><Link to ='/safety'>Safety</Link></li>

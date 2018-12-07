@@ -1,0 +1,48 @@
+/* NAV BAR */
+
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #d12529;
+  height: 50px;
+}
+
+.navBar ul {
+  position: relative;
+  right: -250px;
+  top: -2px;
+  list-style-type: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  transition: 0.2s ease-out;
+  transition: .3s ease-in;
+}
+
+.navBar ul a {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-right: 30px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.navBar:hover ul {
+  color: #fff;
+  text-decoration: none;
+}
+
+.paramountSmall {
+  height: 30px;
+  position: relative;
+  top: -5px;
+  right: 500px;
+}
+
+.navBar a:hover {
+  background-color: white;
+  color: #d12529;
+}
