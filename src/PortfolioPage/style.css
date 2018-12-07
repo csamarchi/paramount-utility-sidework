@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 40px;
+  margin: 20px;
+}
+
+.photo {
+  padding: 10px;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+.portfolioBackground {
+  background-image: url('/portfolio_bg.jpg');
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #d12529;
+    font-weight: 500;
+    position: relative;
+    margin-left: 120px;
+}
